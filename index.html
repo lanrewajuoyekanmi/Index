@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Credit card form
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0"/>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+        <legend>
+            <div class="credit-card">
+                <header>
+                    <h1>
+                        <img class="cc" src="cc-logo.png" alt="credit card logo">
+                        <img class="visa" src="visa-logo.png" alt="visa logo">
+                    </h1>
+                    <h2 class="number">
+                            4242 &nbsp;&nbsp;&nbsp;**** &nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;4242
+                        </h2>
+                        <div class="holder-name">
+                            <span class="card-holder">Card Holder</span>
+                            <p class="name" > OLANREWAJU OYEKANMI</p>
+                        </div> 
+                        <div class="expire">
+                            <span class="due"> Expires</span>
+                            <p class="date">05/23 </p>
+                        </div>
+                </header>
+        </legend>
+    </div>
+    <main class="card-info">
+        <form>
+            <div>
+                <p class="card-number">Card Number </p>
+                <label><input class="info" type="text" placeholder="4242 4242 4242 4242" required></label>
+            </div>
+            <div>
+                <p class="card-name">Card Holder </p>
+                <label><input class="name-info" type="text" required> </label>
+            </div>
+            <div class="exp">
+                Expiration date <span id="cvv"> CVV</span>
+              <p>   <input class="new" type="month" required>
+              <input class="cvv" type="text" required placeholder="123">
+              </p>
+            </div>
+            <div class="submit">
+                <button type="submit">
+                    Sumbit
+                </button>
+            </div>
+        </form> 
+    </main>
+</body>
+</html>
